@@ -1,0 +1,65 @@
+.sidebar {
+  position: fixed;
+  height: 100%;
+  width: 100px;
+  display: inline-block;
+  z-index: 1;
+}
+
+.sidebar img {
+  width: 50%;
+  margin-top: 70px;
+}
+.light {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 25px;
+  position: absolute;
+  bottom: 80px;
+  background-color: white;
+}
+.dark {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 25px;
+  position: absolute;
+  bottom: 30px;
+  background-color: black;
+}
+.light:hover,
+.dark:hover {
+  box-shadow: 4px 0px 12px yellow;
+}
+.home,
+.add,
+.about {
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.home:hover,
+.add:hover,
+.about:hover {
+  background-color: white;
+}
+.active {
+  background-color: white;
+}
+@media screen and (max-width:400px){
+  .sidebar{
+    width: 60px;
+  }
+  .home,
+.add,
+.about {
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.dark,.light{
+  margin-left: 15px;
+}
+  
+}

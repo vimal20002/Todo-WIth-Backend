@@ -1,0 +1,199 @@
+.new {
+  z-index: 4;
+  position: fixed;
+  left: 205px;
+  top: 120px;
+  width: 1000px;
+  display: inline-block;
+  height: 440px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 20px 20px 250px 450px rgba(0, 0, 0, 0.752);
+}
+
+.new h1 {
+  text-align: center;
+  margin: 0;
+  margin-top: -45px;
+}
+.addd {
+  width: 4%;
+  display: inline-block;
+  position: relative;
+  left: 320px;
+  margin-top: 30px;
+}
+.new h2 {
+  margin: 0px;
+  font-size: 30px;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.work {
+  width: 5%;
+  position: relative;
+  top: -80px;
+  left: 177px;
+}
+#title {
+  position: relative;
+  border-radius: 10px;
+  left: 80px;
+  top: 20px;
+  font-size: 23px;
+  text-justify: newspaper;
+  padding-top: 25px;
+  padding-left: 50px;
+}
+#time {
+  position: relative;
+  top: 10px;
+  left: 80px;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.timee {
+  width: 5%;
+  position: relative;
+  left: 230px;
+  top: -40px;
+}
+.sbmit {
+  position: relative;
+  top: 40px;
+  height: 40px;
+  width: 100%;
+  font-size: 25px;
+  background-color: aqua;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 2px black dashed;
+  cursor: pointer;
+}
+
+select {
+  font-family: "Montserrat", sans-serif;
+}
+#catg {
+  position: relative;
+  left: 160px;
+  top: 10px;
+  width: 150px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+#lbl {
+  position: relative;
+  left: 140px;
+  top: 10px;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1225px) {
+  .new {
+    width: 800px;
+  }
+  .addd {
+    width: 5%;
+    left: 220px;
+  }
+  .work {
+    top: -85px;
+  }
+  #title {
+    left: 60px;
+    width: 600px;
+  }
+  .sbmit {
+    top: 50px;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .new {
+    width: 500px;
+  }
+  .addd {
+    width: 7%;
+    left: 80px;
+    top: -5px;
+  }
+  .work {
+    top: -85px;
+    width: 7%;
+  }
+  #title {
+    left: 30px;
+    width: 350px;
+  }
+  #time {
+    left: 40px;
+  }
+  .timee {
+    width: 7%;
+  }
+  .sbmit {
+    top: 37px;
+  }
+  #lbl {
+    top: 60px;
+    left: -270px;
+  }
+  #catg {
+    left: 220px;
+    top: 20px;
+  }
+}
+@media screen and (max-width: 738px) {
+  .new {
+    left: 20px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .new {
+    width: 300px;
+  }
+  .new h1,
+  .new h2 {
+    font-size: 25px;
+  }
+  .new h1 {
+    margin-top: -20px;
+  }
+  .new h2 {
+    margin-left: 20px;
+  }
+  .addd {
+    width: 10%;
+    left: 10px;
+    top: 15px;
+  }
+  .work {
+    top: -85px;
+    left: 95px;
+    width: 12%;
+  }
+  .timee {
+    width: 10%;
+    left: 140px;
+    top: -30px;
+  }
+  #title {
+    left: 0px;
+    width: 200px;
+  }
+  #time {
+    left: 10px;
+    width: 200px;
+  }
+  #lbl {
+    left: -200px;
+  }
+  #catg {
+    left: 50px;
+  }
+  .sbmit {
+    top: 50px;
+  }
+}
